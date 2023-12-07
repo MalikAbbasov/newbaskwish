@@ -1,0 +1,93 @@
+#navbar{
+    max-width: 100vw;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container{
+        width: 1000px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .nav_img{
+            cursor: pointer;
+        }
+        .nav_pages{
+            width: 400px;
+            ul{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 10px;
+                font-size: 20px;
+                li{
+                    cursor: pointer;
+                    font-weight: 600;
+                    transition: 200ms;
+                    &:hover{
+                        color: green;
+                    }
+                }
+            }
+        }
+        .nav_icons{
+            width: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            i{
+                cursor: pointer;
+                font-size: 18px;
+                transition: 300ms;
+                &:hover{
+                    color: green;}
+                
+            }
+            .fa-cart-shopping{
+                position: relative;
+            }
+
+            .basket_icon{
+                position: absolute;
+                top: -10px;
+                right: -15px;
+                width: 20px;
+                height: 20px;
+                background-color: black;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                font-size: 14px;
+                &:hover{
+                    background-color: green;
+                    color: white;
+                }
+            }
+            .fa-heart{
+                position: relative;
+            }
+
+            .wish_icon{
+                position: absolute;
+                top: -10px;
+                right: -15px;
+                width: 20px;
+                height: 20px;
+                background-color: black;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                font-size: 14px;
+                &:hover{
+                    background-color: green;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
